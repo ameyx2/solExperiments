@@ -1,7 +1,9 @@
 pragma solidity ^0.4.4;
+
 import 'zeppelin-solidity/contracts/token/StandardToken.sol';
 
 contract AudioToken is StandardToken {
+  string public filler = '';
   string public name = 'Audio';
   string public symbol = 'AUD';
   uint public decimals = 10;
