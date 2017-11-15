@@ -1,5 +1,17 @@
 pragma solidity ^0.4.4;
 
+contract firstContract {
+
+ address owner1;
+
+ function firstContract() {
+   
+   owner1 =msg.sender;
+ 
+ }
+
+}
+
 contract Contract_A {
 
 address public b_addr;
